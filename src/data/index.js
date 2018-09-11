@@ -23,7 +23,7 @@ export default [
   {
       name: "Red Wine",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "red_wine.png"
   },
   {
       name: "Rosé Wine",
@@ -81,7 +81,7 @@ export default [
       img: "empty.png"
   },
   {
-      name: "Pina Colada",
+      name: "Piña Colada",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
       img: "empty.png"
   },

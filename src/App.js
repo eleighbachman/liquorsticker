@@ -31,7 +31,7 @@ class App extends Component {
       <div className="App">
         <header className="App-header">
 
-          <h1 className="App-title">Liquor Stickers</h1>
+          <span>Liquor Stickers</span>
         </header>
         <div className="searchBar">
           <input value={this.state.search} placeholder="Search" onChange={(e) => this.handleChange(e)}/>
@@ -61,7 +61,7 @@ class App extends Component {
 
         </div>
         <div className="footer">
-          <p>Enjoying the stickers? Check out Scott Hennessy Art for more.</p>
+          <span className="c2a">Enjoying the stickers?</span> <p>Check out Scott Hennessy Art for more.</p>
         </div>
       </div>
     );
