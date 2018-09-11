@@ -110,6 +110,7 @@
   padding-top: 50px;
   padding-right: 50px;
   padding-left: 160px;
+  padding-bottom: 30px;
   font-size: 0.8em;
   font-family: 'Raleway', sans-serif;
   letter-spacing: 0.5px;
@@ -121,4 +122,5 @@
   font-family: 'Khand', sans-serif;
   font-size: 3em;
   color: #bbb;
+  line-height: 1;
 }
