@@ -41,8 +41,10 @@ class App extends Component {
           {
             filteredStickers.length > 0 ?
             <div className="stickerList row">
-              {filteredStickers.map((sticker) => {
-                return <Sticker name={sticker} key={sticker}/>
+              { filteredStickers.map((sticker) => {
+                return <Sticker name={sticker} key={sticker} img={stickers.filter((stickers) => {
+                  return stickers.name === sticker
+                })}/>
               })}
             </div> :
             this.state.search.length < 20 ?
@@ -57,6 +59,9 @@ class App extends Component {
           }
 
 
+        </div>
+        <div className="footer">
+          <p>Enjoying the stickers? Check out Scott Hennessy Art for more.</p>
         </div>
       </div>
     );

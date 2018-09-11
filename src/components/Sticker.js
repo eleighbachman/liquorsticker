@@ -5,7 +5,9 @@ import stickers from '../data';
 class Sticker extends React.Component {
   state = {
     open: false,
-    info: ''
+    info: '',
+    img: this.props.img[0].img
+
   }
 
   onOpenModal = () => {
@@ -21,14 +23,18 @@ class Sticker extends React.Component {
   }
 
   render() {
+
     const { open } = this.state;
     return(
       <div>
-        <div onClick={this.onOpenModal} className="stickerItem col-sm-3">{this.props.name}
-      </div>
+        <div style={{backgroundImage: 'url(' + require(`../img/${this.state.img}`) + ')', backgroundSize: 'cover'}} onClick={this.onOpenModal} className="stickerItem col-sm-3" >
+
+          <span className="drinkName">{this.props.name}</span>
+        </div>
       <Modal open={open} onClose={this.onCloseModal} center>
         <h1>{this.props.name}</h1>
         <p>{this.state.info}</p>
+        <img src={require(`../img/${this.state.img}`)} />
       </Modal>
       </div>
     )
