@@ -1,0 +1,41 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 100px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 2em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.stickerContainer {
+
+}
+
+.stickerList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.stickerItem {
+  height: 200px;
+  width: 200px;
+  border: 3px solid black;
+  border-radius: 5px;
+  margin: 20px;
+  background-color: gray;
+}
+
+.stickerItem:hover {
+  cursor: pointer;
+}
