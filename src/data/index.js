@@ -28,7 +28,7 @@ export default [
   {
       name: "Rosé Wine",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "rose.png"
   },
   {
       name: "White Wine",
