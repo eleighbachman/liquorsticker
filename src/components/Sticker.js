@@ -1,13 +1,19 @@
 import React from 'react';
 import Modal from 'react-responsive-modal';
+import stickers from '../data';
 
 class Sticker extends React.Component {
   state = {
-    open: false
+    open: false,
+    info: ''
   }
 
   onOpenModal = () => {
-    this.setState({ open: true })
+    let single = stickers.filter((sticker) => {
+      return sticker.name === this.props.name
+    })
+    this.setState({ open: true, info: single[0].information})
+
   }
 
   onCloseModal = () => {
@@ -22,6 +28,7 @@ class Sticker extends React.Component {
       </div>
       <Modal open={open} onClose={this.onCloseModal} center>
         <h1>{this.props.name}</h1>
+        <p>{this.state.info}</p>
       </Modal>
       </div>
     )

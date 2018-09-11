@@ -27,7 +27,6 @@ class App extends Component {
         return sticker.toLowerCase().indexOf(this.state.search.toLowerCase()) !== -1;
       }
     )
-    console.log(filteredStickers);
     return (
       <div className="App">
         <header className="App-header">
@@ -38,7 +37,7 @@ class App extends Component {
           <input value={this.state.search} placeholder="Search" onChange={(e) => this.handleChange(e)}/>
         </div>
         <div className="stickerContainer container">
-          <p>{filteredStickers.length} Results</p>
+          <p className="resultCount">{filteredStickers.length} Results</p>
           {
             filteredStickers.length > 0 ?
             <div className="stickerList row">
@@ -46,8 +45,14 @@ class App extends Component {
                 return <Sticker name={sticker} key={sticker}/>
               })}
             </div> :
+            this.state.search.length < 20 ?
             <div className="noResults">
               No results found for <span className="searchTerm">"{this.state.search}"</span>
+            </div>
+            :
+            <div className="noResults">
+              No results found for <span className="searchTerm">"{this.state.search}"</span>
+              <div className="warning">Psssst! I don&apos;t think I&apos;m going to find anything - you can stop typing now!</div>
             </div>
           }
 

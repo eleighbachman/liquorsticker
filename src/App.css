@@ -39,3 +39,21 @@
 .stickerItem:hover {
   cursor: pointer;
 }
+
+.noResults {
+  height: 500px;
+  padding-top: 100px;
+  font-size: 2em;
+}
+
+.resultCount {
+  color: #444;
+  padding-top: 5px;
+}
+
+.warning {
+  font-size: 0.75em;
+  font-style: italic;
+  padding-top: 15px;
+  color: #333;
+}
