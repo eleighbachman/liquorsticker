@@ -35,14 +35,23 @@ class App extends Component {
           <h1 className="App-title">Liquor Stickers</h1>
         </header>
         <div className="searchBar">
-          <input value={this.state.search} onChange={(e) => this.handleChange(e)}/>
+          <input value={this.state.search} placeholder="Search" onChange={(e) => this.handleChange(e)}/>
         </div>
         <div className="stickerContainer container">
-          <div className="stickerList row">
-            {filteredStickers.map((sticker) => {
-              return <Sticker name={sticker} key={sticker}/>
-            })}
-          </div>
+          <p>{filteredStickers.length} Results</p>
+          {
+            filteredStickers.length > 0 ?
+            <div className="stickerList row">
+              {filteredStickers.map((sticker) => {
+                return <Sticker name={sticker} key={sticker}/>
+              })}
+            </div> :
+            <div className="noResults">
+              No results found for <span className="searchTerm">"{this.state.search}"</span>
+            </div>
+          }
+
+
         </div>
       </div>
     );
