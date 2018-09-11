@@ -23,12 +23,12 @@ export default [
   {
       name: "Red Wine",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Rosé Wine",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "White Wine",
@@ -53,52 +53,52 @@ export default [
   {
       name: "Irish Coffee",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Absinthe",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Mimosa",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Champagne",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Strawberry Daiquiri",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Margarita",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Pina Colada",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Tequila",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Moscow Mule",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
   {
       name: "Beerita",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "cosmo.png"
+      img: "empty.png"
   },
 
 ]

@@ -80,6 +80,36 @@
   background-color: #222;
   height: 150px;
   padding-top: 40px;
-  font-size: 1.2em;
+  font-size: 0.9em;
+  font-family: 'Raleway', sans-serif;
+}
 
+.modalStyles {
+  padding: 15px;
+  border: 2px solid #ccc;
+  margin: auto;
+  justify-content: center;
+  color: #444;
+}
+
+.drinkNameHeader {
+  display: inline-block;
+}
+
+.drinkContent {
+  justify-content: center;
+  display: flex;
+  font-family: 'Raleway', sans-serif;
+  text-transform: lowercase;
+  letter-spacing: 1px;
+}
+
+.modalImg {
+  width: 240px;
+  margin: auto;
+  display: inline-block;
+}
+
+.col-sm-4 {
+  margin: auto;
 }

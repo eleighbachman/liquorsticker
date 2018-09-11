@@ -32,9 +32,19 @@ class Sticker extends React.Component {
           <span className="drinkName">{this.props.name}</span>
         </div>
       <Modal open={open} onClose={this.onCloseModal} center>
-        <h1>{this.props.name}</h1>
-        <p>{this.state.info}</p>
-        <img src={require(`../img/${this.state.img}`)} />
+        <div className="modalStyles">
+          <h1 className="drinkNameHeader">{this.props.name}</h1>
+          <div className="row drinkContent">
+            <div className="col-sm-4">
+              <img className="modalImg" src={require(`../img/${this.state.img}`)} />
+            </div>
+            <div className="col-sm-8">
+            <div className="drinkDesc">{this.state.info}</div>
+            </div>
+          </div>
+
+
+        </div>
       </Modal>
       </div>
     )
