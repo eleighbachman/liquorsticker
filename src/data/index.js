@@ -100,5 +100,15 @@ export default [
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
       img: "empty.png"
   },
+  {
+      name: "Bloody Mary",
+      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      img: "empty.png"
+  },
+  {
+      name: "Pickleback",
+      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      img: "empty.png"
+  },
 
 ]
