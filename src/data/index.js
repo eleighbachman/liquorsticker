@@ -58,7 +58,7 @@ export default [
   {
       name: "Absinthe",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "absinthe.png"
   },
   {
       name: "Mimosa",
