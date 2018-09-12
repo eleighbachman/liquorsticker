@@ -6,33 +6,33 @@ export default [
   },
   {
       name: "Rum & Coke",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "Rum & Coke ipsum dolor sit amet, consectetur adipisicing elit",
       img: "whiskey.png"
 
   },
   {
       name: "Whiskey Sour",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "Whiskey Sour ipsum dolor sit amet, consectetur adipisicing elit",
       img: "whiskey_sour.png"
   },
   {
       name: "Vodka Martini",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "Vodka Martini ipsum dolor sit amet, consectetur adipisicing elit",
       img: "vodka_martini.png"
   },
   {
       name: "Red Wine",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "red Wine ipsum dolor sit amet, consectetur adipisicing elit",
       img: "red_wine.png"
   },
   {
       name: "Rosé Wine",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "Rosé wine ipsum dolor sit amet, consectetur adipisicing elit",
       img: "rose.png"
   },
   {
       name: "White Wine",
-      information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
+      information: "white wine ipsum dolor sit amet, consectetur adipisicing elit",
       img: "white_wine.png"
   },
   {
@@ -53,7 +53,7 @@ export default [
   {
       name: "Irish Coffee",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "irish_coffee.png"
   },
   {
       name: "Absinthe",
