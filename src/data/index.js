@@ -63,7 +63,7 @@ export default [
   {
       name: "Mimosa",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "mimosa.png"
   },
   {
       name: "Champagne",
