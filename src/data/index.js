@@ -98,7 +98,7 @@ export default [
   {
       name: "Beerita",
       information: "Quick. Cold. Crisp. The best of both worlds spun into a cylinder of stylish sloth. Enjoy your beerita in strawberry, mango, watermelon, lime or pineapple - just a walk to the grocery store away!",
-      img: "empty.png"
+      img: "beerita.png"
   },
   {
       name: "Bloody Mary",
