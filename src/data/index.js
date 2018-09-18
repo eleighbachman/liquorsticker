@@ -73,7 +73,7 @@ export default [
   {
       name: "Strawberry Daiquiri",
       information: "Is there even alcohol in this? I'll have another, please! Wait - did you drink my daiquiri? Best get a third, I don't feel a thing... who ordered this slurpie for me? Thanks! ...did you take my keys?",
-      img: "empty.png"
+      img: "daiquiri.png"
   },
   {
       name: "Margarita",
