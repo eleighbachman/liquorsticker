@@ -78,7 +78,7 @@ export default [
   {
       name: "Margarita",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "margarita.png"
   },
   {
       name: "Piña Colada",
