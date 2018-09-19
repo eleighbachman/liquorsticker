@@ -83,7 +83,7 @@ export default [
   {
       name: "Piña Colada",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "pina_colada.png"
   },
   {
       name: "Tequila",
@@ -103,7 +103,7 @@ export default [
   {
       name: "Bloody Mary",
       information: "Best when complemented with a skewer of asparagus, celery or other veggies, this morning cure-all takes off the edge by adding a smooth finish of its own. Temper your vodka with hot sauce or wasabi and watch the colors fly!",
-      img: "empty.png"
+      img: "bloody_mary.png"
   },
   {
       name: "Pickleback",
