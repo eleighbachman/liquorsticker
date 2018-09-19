@@ -62,7 +62,7 @@ class App extends Component {
         </div>
         <div className="footer">
           <span className="c2a">Enjoying the stickers?</span> <p>Check out Scott Hennessy Art for more.</p>
-          <p>Or buy on <a href="https://www.redbubble.com/people/shennessy/collections/968446-liquor-stickers?asc=u">RedBubble</a></p>
+          <p>Or buy on <a href="https://www.redbubble.com/people/shennessy/collections/968446-liquor-stickers?asc=u" target="_blank">RedBubble</a></p>
         </div>
       </div>
     );

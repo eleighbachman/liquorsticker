@@ -116,11 +116,18 @@
   letter-spacing: 0.5px;
   font-weight: bold;
   color: #777;
+  line-height: 3px;
 }
+
+.footer p {
+  margin-top: 5px;
+}
+
 
 .c2a {
   font-family: 'Khand', sans-serif;
   font-size: 3em;
   color: #bbb;
   line-height: 1;
+  margin-bottom: 10px;
 }
