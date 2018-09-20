@@ -88,12 +88,12 @@ export default [
   {
       name: "Tequila",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "tequila.png"
   },
   {
       name: "Moscow Mule",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "moscow_mule.png"
   },
   {
       name: "Beerita",
@@ -108,7 +108,7 @@ export default [
   {
       name: "Pickleback",
       information: "Cosmopolitan ipsum dolor sit amet, consectetur adipisicing elit",
-      img: "empty.png"
+      img: "pickleback.png"
   },
 
 ]
